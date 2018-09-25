@@ -7,13 +7,13 @@ const getYoutubeID = require('get-youtube-id');
 const fetchVideoInfo = require('youtube-info');
  
 const yt_api_key = "AIzaSyDeoIH0u1e72AtfpwSKKOSy3IPp2UHzqi4";
-const prefix = 'TG';
+const prefix = 'T1';
 client.on('ready', function() {
     console.log(`i am ready ${client.user.username}`);
 });
  
       client.on('ready', () => {
-              client.user.setActivity("TGplay | by MrSOKA", {type: 'LISTENING'});
+              client.user.setActivity("T1play | by MrSOKA", {type: 'LISTENING'});
      
       });
 /*
